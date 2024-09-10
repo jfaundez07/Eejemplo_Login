@@ -21,3 +21,38 @@ El método run es responsable de manejar la interacción con el usuario.
 **Por ultimo**: Con este índice, verifica si la contraseña ingresada coincide con la contraseña almacenada en el arreglo passwords en la misma posición, utilizando el método validateCredentials. Si la contraseña no coincide, imprime un mensaje de error y termina la ejecución. 
 
 Si todo es correcto, imprime un mensaje de bienvenida.
+
+## Unit Test
+
+Se agregan pruebas unutarias usando el framework '*JUnit 5*'.  
+Los metodos utilizados constan de:
+```java
+assertTrue(); // Aprueba si el parametro es verdadero
+assertFalse(); // Aprueba si el parametro es falso
+assertEquals(); // Aprueba si los parametros entregados son iguales
+```
+
+Para el archivo pom.xml:
+```xml
+<dependencies>
+    
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.11.0</version>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+```
+
+Referencia: [Maven Respository](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api)
+
+## Para reflexionar:
+
+Cuando puedo definir si un programa tiene buenas pruebas?  
+Cuando todas las pruebas pasan?  
+Cuando ninguna prueba pasa?  
+Cuando encuentro muchos o pocos errores?  
+
+Discuta..
