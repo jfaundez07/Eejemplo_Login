@@ -13,7 +13,6 @@ public class Main {
             Para efectos practicos, se asume que la posicion [i] de la lista users
             coincide con la posicion [i] de la lista passwords.
         */
-
         String[] users  = {"samuel01", "nicolas02", "joaquin03"};
         String[] passwords = {"sepulveda_ufrontera", "pelizari_ufromail","faundez_ufromail"};
 
@@ -117,7 +116,6 @@ public class Main {
             si coinciden, se retorna << true >>,
             en caso contrario, se retorna << false >>.
         */
-        
         if (passwordsArr[index].equals(password)) {
             return true;
         }
