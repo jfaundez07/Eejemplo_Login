@@ -28,9 +28,6 @@ public class Main {
         System.out.println("Ingrese su nombre de usuario:");
         String user = scanner.nextLine();
 
-        System.out.println("Ingrese su contraseña:");
-        String password = scanner.nextLine();
-
         /*
             Si no encuentra al usuario en la lista de usuarios,
             se finaliza el proceso con << return >>.
@@ -39,6 +36,9 @@ public class Main {
             System.out.println("Usuario" + user + " no encontrado");
             return;
         }
+
+        System.out.println("Ingrese su contraseña:");
+        String password = scanner.nextLine();
         
         /*
             Si se valida el usuario, se obtiene el de la lista de usuarios.
