@@ -7,17 +7,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
 
-    String[] users;
-    String[] passwords;
+    static String[] users;
+    static String[] passwords;
 
     @BeforeAll
-    void setUp() {
+    static void setUp() {
         users = new String[]{"samuel01", "nicolas02", "joaquin03"};
         passwords = new String[]{"sepulveda_ufrontera", "pelizari_ufromail","faundez_ufromail"};
     }
 
     @AfterAll
-    void tearDown() {
+    static void tearDown() {
         users = null;
         passwords = null;
     }
