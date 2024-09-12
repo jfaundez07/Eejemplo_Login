@@ -37,13 +37,13 @@ public class Main {
             return;
         }
 
-        System.out.println("Ingrese su contraseña:");
-        String password = scanner.nextLine();
-        
-        /*
+       /*
             Si se valida el usuario, se obtiene el de la lista de usuarios.
         */
         int index = getIndex(users, user);
+
+        System.out.println("Ingrese su contraseña:");
+        String password = scanner.nextLine();
 
         /*
             Si el indice del usuario en la lista de usuario no coincide
