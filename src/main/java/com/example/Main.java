@@ -37,6 +37,8 @@ public class Main {
             return;
         }
 
+        System.out.println("Usuario encontrado\n");
+
        /*
             Si se valida el usuario, se obtiene el de la lista de usuarios.
         */
@@ -54,6 +56,8 @@ public class Main {
            System.out.println("Contraseña incorrecta para el usuario " + user);
            return;
         }
+
+        System.out.println("Contraseña correcta\n");
 
 
         /*
